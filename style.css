@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    min-height: 100vh;
+}
+
+.loading {
+    max-width: 50%;
+    line-height: 1.4;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(82, 19, 71);
+    text-align: center;
+}
+
+.loading__author {
+    font-weight: normal;
+    font-size: 0.9rem;
+    color: rgb(114, 85, 85);
+    margin: 0.6rem 0 2rem 0;
+    display: block;
+}
+
+.loading__anim {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border: 5px solid rgba(85, 17, 86, 0.25);
+    border-top-color: #49145e;
+    border-radius: 50%;   /* Makes it circular */
+    animation: rotate 0.8s linear infinite;
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
