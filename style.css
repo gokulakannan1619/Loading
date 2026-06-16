@@ -29,7 +29,7 @@ body {
     display: inline-block;
     border: 5px solid rgba(85, 17, 86, 0.25);
     border-top-color: #49145e;
-    border-radius: 50%;   /* Makes it circular */
+    border-radius: 100%;   /* Makes it circular */
     animation: rotate 0.8s linear infinite;
 }
 
