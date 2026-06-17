@@ -2,7 +2,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(to bottom, rgb(238, 0, 255), yellow);
     min-height: 100vh;
 }
 
@@ -13,14 +13,21 @@ body {
     font-weight: bold;
     color: rgb(82, 19, 71);
     text-align: center;
+    text-shadow: 1px 1px 2px rgba(126, 24, 75, 1.0);
 }
 
 .loading__author {
     font-weight: normal;
     font-size: 0.9rem;
     color: rgb(114, 85, 85);
+    text-shadow: 1px 1px 2px  rgba(114, 85, 85, 1.0);
+
     margin: 0.6rem 0 2rem 0;
     display: block;
+}
+.loading__author:hover {
+    color: rgb(85, 17, 86);
+    text-shadow: 1px 1px 2px rgba(85, 17, 86, 1.0);
 }
 
 .loading__anim {
